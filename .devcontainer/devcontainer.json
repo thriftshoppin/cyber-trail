@@ -1,0 +1,16 @@
+{
+  "name": "Cyber Trail",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      },
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  },
+  "postStartCommand": "echo '\\n\\n=== CYBER TRAIL ===\\nRun: python3 cyber_trail.py\\nOr with AI-DM: python3 cyber_trail.py --ai-dm\\n\\n'"
+}
